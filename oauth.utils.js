@@ -1,7 +1,7 @@
 var document = {getElementsByTagName:function(value) { return null; }};
 
-y.include("http://oauth.googlecode.com/svn/code/javascript/oauth.js");
-y.include("http://oauth.googlecode.com/svn/code/javascript/sha1.js");
+y.include("https://raw.github.com/pthrasher/yql-twitter-oauth/master/oauth.js");
+y.include("https://raw.github.com/pthrasher/yql-twitter-oauth/master/sha1.js");
 
 function sendRequest(args)
 {
